@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    background-color: orangered;
+    color: white;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.header li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+header li{
+    display: inline;
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.section article img {
+    height: 180px;
+}
+
+.section article {
+    width: 30%;
+}
+
+.section article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.section article a {
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;    /* Tira o underline do texto */
+    font-weight: 600;
+}
+
+.section article a:hover {    /* aplica um decoraçao ao passar o mouse */
+    text-decoration: underline;
+}
+
+.section article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2 {
+    font-size: 38px;
+}
+
+#sports{
+    background-color: rgba(0,200,0,0.1);
+}
+
+#economy {
+    background-color: rgba(0,0,200,0.1);
+}
+
+#entretenimento {
+    background-color:  rgba(200,0,0, 0.1);
+}
+
+#saude {
+    background-color: rgba(59, 87, 59, 0.507);
+}
