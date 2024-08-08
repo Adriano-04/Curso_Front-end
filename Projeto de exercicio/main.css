@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header h1 {
+    font-size: 300%;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+header .container {
+    background-color: orangered;
+    padding: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container li {
+    display: inline;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+header .container a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+}
+
+section .container h2 {
+    padding: 24px 12px;
+    font-size: 200%;
+    
+}
+
+section .plano img {
+    height: 320px;
+    max-width: 420px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+section .plano, #links-forms .container {
+    display: flex;
+}
+
+#internacional .container a, #nacional .container a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+section .container h3 {
+    margin-top: 24px;
+    margin-left: 16px;
+    font-size: 150%;
+}
+
+form {
+    width: 180px;
+    margin-left: 16px;
+}
+
+form input, form button {
+    margin: 12px 0;
+    padding: 8px;
+
+}
+
+form button {
+    background-color: orangered;
+    color: white;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: rgb(248, 129, 86);
+}
+
+.social img {
+    height: 32px;
+    margin-left: 12px;
+}
+
+#links-forms .container {
+    align-items: end;
+    justify-content: space-between;
+}
+
+.social li {
+    display: inline;
+}
+
+footer {
+    padding: 12px;
+    background-color: orangered;
+    color: white;
+}
+
+.social h3 {
+    margin-bottom: 16px;
+}
+
+.social a {
+    text-decoration: none;
+}
