@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteudo {
+    max-width: 1360px;
+    width: 50%;
+    margin: 60px auto;
+}
+
+form input {
+    margin-top: 12px;
+    padding: 8px;
+    width: 100%;
+}
+
+#erro {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    display: block;
+    display: none;
+}
+
+#sucess {
+    background-color: green;
+    padding: 8px;
+    color: white;
+    display: none;
+}
+
+button {
+    margin: 8px 0;
+    padding: 8px;
+    cursor: pointer;
+}
+
