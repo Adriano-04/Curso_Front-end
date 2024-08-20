@@ -10,11 +10,11 @@ function verificaNum(numeroB,numeroA) {
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-    const validar = verificaNum(ValorB.value,ValorA.value)
+    const validar = verificaNum(ValorB.valueAsNumber,ValorA.valueAsNumber)
     const messageSucess = document.getElementById('sucess')
     const messageErro = document.getElementById('erro')
 
-    if(!validar) {
+    if(validar) {
         messageSucess.style.display = 'block'
         messageErro.style.display = 'none'
         ValorB.style.border = ''
@@ -24,6 +24,3 @@ form.addEventListener('submit', function(e) {
         ValorB.style.border = '1px solid red'
     }
 })
-
-console.log(ValorA.value)
-console.log(ValorB.value)
