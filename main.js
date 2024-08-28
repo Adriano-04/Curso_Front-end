@@ -1,5 +1,7 @@
+
 $(document).ready(function() {
 
+    
     $('header button').click(function(e) {
         e.preventDefault();
 
@@ -8,12 +10,10 @@ $(document).ready(function() {
 
         $(`<h3>${novaTarefa}</h3>`).appendTo(novoLi);
         $(novoLi).appendTo('ul');
+
     })
 
-
-    $('h3').click(function() {
-        const textoTarefa = $('h3').val();
-
-        $(textoTarefa).style = 'text-decoration: line-through'
+    $('ul').on('click','h3', function() {
+        $(this).toggleClass('completo');
     })
 })

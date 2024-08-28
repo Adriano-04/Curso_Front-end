@@ -7,7 +7,11 @@
 .content {
     max-width: 1260px;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
+}
+
+body {
+    background-color: antiquewhite;
 }
 
 header {
@@ -17,6 +21,7 @@ header {
 header input,button {
     padding: 8px;
     margin: 16px 0;
+    font-size: 16px;
 }
 
 button {
@@ -34,6 +39,7 @@ button:hover {
 form {
     display: flex;
     align-items: center;
+    margin-top: 16px;
 }
 
 ul {
@@ -54,3 +60,6 @@ li h3 {
     font-weight: 400;
 }
 
+.completo {
+    text-decoration: line-through;
+}
