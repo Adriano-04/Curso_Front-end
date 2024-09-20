@@ -1,0 +1,88 @@
+header {
+    background-color: rgb(230, 215, 196);
+    padding: 18px;
+    border-bottom: 4px solid brown;
+}
+
+body .container {
+    background-color: rgb(245, 245, 231);
+}
+
+.carousel-item img {
+    max-width: 60%;
+    margin-left: 240px;
+}
+
+.carousel {
+    padding-top: 32px;
+}
+
+.card {
+    margin-bottom: 24px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.container h2 {
+    padding: 24px 0px;
+    max-width: 100%;
+    border-bottom: 1px solid brown;
+    margin-bottom: 32px;
+}
+
+.container {
+    padding: 0;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+form {
+    margin: 0 16px;
+}
+
+.card h4 {
+    margin-top: 12px;
+}
+
+.card strong {
+    font-size: 180%;
+    margin: 12px
+}
+
+footer {
+    background-color: rgb(196, 196, 196);
+
+}
+
+footer h4 {
+    padding-top: 18px;
+}
+
+.container strong{
+    font-size: 250%;
+    padding-top: 28px;
+    margin-left: 12px;
+}
+
+form button {
+    padding: 8px;
+    margin: 24px 0;
+}
+
+@media screen and (max-width: 667px) {
+
+    .carousel-item img {
+        max-width: 60%;
+        margin-left: 80px;
+    }
+    
+    .container strong{
+        font-size: 150%;
+        padding-top: 28px;
+        margin-left: 12px;
+    }
+}
