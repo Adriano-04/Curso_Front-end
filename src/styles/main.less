@@ -1,0 +1,52 @@
+@corBotao: green;
+@corFundo: rgba(75, 152, 253, 0.849);
+
+body {
+    background-color: @corFundo;
+
+    h1 {
+        font-size: 3em;
+    }
+}
+
+header {
+    p {
+        font-size: 150%;
+    }
+}
+
+.container {
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 64px;
+}
+
+input {
+    padding: 12px;
+    max-width: 320px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+#mensagem {
+    font-weight: bold;
+    font-size: 2em;
+    border: 2px dotted black;
+    padding: 12px;
+    text-align: center;
+    display: none;
+}
+
+button {
+    padding: 12px;
+    background-color: @corBotao;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover {
+        background-color: rgb(1, 163, 1);
+    }
+}
